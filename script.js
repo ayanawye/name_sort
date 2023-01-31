@@ -3,11 +3,6 @@ const sortTag = document.querySelector(".sort")
 const saveTag = document.querySelector(".save")
 const nameList = document.querySelector('.text_name')
 
-// function upLetter(){
-//     const name = inputTag.value
-//     console.log(name[0].toUpperCase()  + name.slice(1))
-// }
-
 let arr = []
 saveTag.addEventListener('click', () =>{
     let name =  inputTag.value
